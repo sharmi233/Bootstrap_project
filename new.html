@@ -1,0 +1,757 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food Menu Medium Images</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+    h2 { color:white; text-shadow: 1px 1px 2px #000; }
+    .card {
+      width: 250px;       /* Fixed width */
+      border-radius: 15px;
+      transition: transform 0.2s;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      margin: auto;
+    }
+    .card:hover { transform: scale(1.05); }
+    .card-img-top {
+      height: 150px;      /* Medium image height */
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .btn-success { background: black; border: none; }
+    .btn-success:hover { background: black; }
+    #orderMessage { font-weight: bold; }
+
+
+  .card-img-top {
+  height: 170px;        /* PERFECT medium size */
+  object-fit: cover;    /* Image neat-aa crop aagum */
+  border-radius: 10px;
+}
+
+.card {
+  width: 300px;        /* Medium box */
+  background: rgba(0,0,0,0.6);
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+  transition: 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+  </style>
+</head>
+<body>
+
+<div class="container py-5 text-center">
+  <h2 class="mb-4">Our Menu</h2>
+
+  <div class="row g-4 justify-content-center">
+
+    <!-- Menu Item 1 -->
+    <h2 class="text-center">Biryani</h2>
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/e4/53/df/e453dfafe3fc9abdb9ca7f17895274b5.jpg" class="card-img-top mb-3" alt="">
+        <h5>Chicken Biryani</h5>
+        <span class="fw-bold text-danger">₹150</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <!-- Menu Item 2 -->
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://bonmasala.com/wp-content/uploads/2022/10/mutton-biriyani-recipe.jpeg" class="card-img-top mb-3" alt="">
+        <h5>Mutton Biriyani</h5>
+        <span class="fw-bold text-danger">₹199</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_5biMapjqYvxTPaPTaYQSLJtRNw6V9qSrEg&s" class="card-img-top mb-3" alt="">
+        <h5>Bucket Biriyani</h5>
+        <span class="fw-bold text-danger">₹500</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202504/112cf7c4-957c-47b1-893e-5207e5a90891.jpg" class="card-img-top mb-3" alt="">
+        <h5>Fish Biriyani</h5>
+        <span class="fw-bold text-danger">₹250</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://t4.ftcdn.net/jpg/05/70/58/65/360_F_570586537_TnIgWdCnaTYpgg9gsTyloz5bnvfCtdLl.jpg" class="card-img-top mb-3" alt="">
+        <h5>Vegetable Biriyani</h5>
+        <span class="fw-bold text-danger">₹350</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://www.shutterstock.com/image-photo/spicy-mutton-biryani-food-photography-600nw-2060030408.jpg" class="card-img-top mb-3" alt="">
+        <h5>Beef Biriyani</h5>
+        <span class="fw-bold text-danger">₹400</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <h2 class="text-center">Junk Foods</h2>
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/a3/3b/0c/a33b0c15621ff2e767a361d1c0bb8808.jpg" class="card-img-top mb-3" alt="">
+        <h5>Cheese Pizza</h5>
+        <span class="fw-bold text-danger">₹200</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://www.dominos.co.in/files/items/chicken_feast.jpg" class="card-img-top mb-3" alt="">
+        <h5>Chicken Pizza</h5>
+        <span class="fw-bold text-danger">₹200</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19739.jpg?semt=ais_hybrid&w=740&q=80" class="card-img-top mb-3" alt="">
+        <h5>Pasta</h5>
+        <span class="fw-bold text-danger">₹100</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://www.polonist.com/wp-content/uploads/2022/06/Polish-strawberry-pasta-1600sq-o.jpg" class="card-img-top mb-3" alt="">
+        <h5>Sweet Pasta</h5>
+        <span class="fw-bold text-danger">₹100</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-paneer.345b2b76013be77de027ba09aff9abe6.1.jpg" class="card-img-top mb-3" alt="">
+        <h5>Vegetable Pizza</h5>
+        <span class="fw-bold text-danger">₹150</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+     <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoVk4VwpoCGmjmi8nrNAo4YePagwAi6qOASg&s" class="card-img-top mb-3" alt="">
+        <h5>Chicken Burger</h5>
+        <span class="fw-bold text-danger">₹149</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <h2 class="text-center">Fried Rice</h2>
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://sinfullyspicy.com/wp-content/uploads/2014/08/img_5197-3.jpg" class="card-img-top mb-3" alt="">
+        <h5>Vegetable Fried Rice</h5>
+        <span class="fw-bold text-danger">₹50</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/egg-fried-rice-spicy.jpg" class="card-img-top mb-3" alt="">
+        <h5>Egg Fried Rice</h5>
+        <span class="fw-bold text-danger">₹100</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+     <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://successrice.com/wp-content/uploads/2020/08/Jerk-Fried-Rice%E2%80%A8Bowl-059-2-1536x864.jpg" class="card-img-top mb-3" alt="">
+        <h5>Chicken Fried Rice</h5>
+        <span class="fw-bold text-danger">₹149</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+   
+    <h2 class="text-center">Payasam And Sweets</h2>
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdHdihFeCredg_JyKjLmBvTa8-Sxy4KTQU7Q&s" class="card-img-top mb-3" alt="">
+        <h5>Semiya Payasam</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0bIUgaIX-WUeHkqscL1XIaV7brNUj5FrD-A&s" class="card-img-top mb-3" alt="">
+        <h5>Ada Payasam</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://i0.wp.com/cdn.mylittlemoppet.com/wp-content/uploads/2018/08/fb-5.jpg?ssl=1" class="card-img-top mb-3" alt="">
+        <h5>Parupu Payasam</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <h2 class="text-center">Halwa</h2>
+     <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://s3.ap-south-1.amazonaws.com/tmt-stagapp/upload/products/87621664439796.jpg" class="card-img-top mb-3" alt="">
+        <h5>Tirunelveli Halwa</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/23/bb/79/23bb794c765aea28fc0bec251475986c.jpg" class="card-img-top mb-3" alt="">
+        <h5>Wheat Karupatti Halwa</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+      <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/3c/f1/85/3cf185c9bbe3252ef796c317a0e91fd4.jpg" class="card-img-top mb-3" alt="">
+        <h5>Paal Halwa</h5>
+        <span class="fw-bold text-danger">Free</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/24/78/b8/2478b8c318447cb2e077d44972e52679.jpg" class="card-img-top mb-3" alt="">
+        <h5>Badam Halwa</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8EvXXDhce_kFGDai0qGjmDLNCyrB1uD3TLg&s" class="card-img-top mb-3" alt="">
+        <h5>Beetroot Halwa</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/ff/c3/d9/ffc3d9ebe9925bf197e7a125a699a3a1.jpg" class="card-img-top mb-3" alt="">
+        <h5>Carrot Halwa</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+   <h2 class="text-center">Traditional Food Iteams</h2>
+     <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://ticklingmoustache.wordpress.com/wp-content/uploads/2019/10/1959961_639791332736206_2062356217_n.jpg?w=584" class="card-img-top mb-3" alt="">
+        <h5>Sapadu-Traditional Indian Food</h5>
+        <span class="fw-bold text-danger">₹100</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://static01.nyt.com/images/2025/01/14/multimedia/ZS-Chukandar-Chicken-kmft/ZS-Chukandar-Chicken-kmft-jumbo.jpg" class="card-img-top mb-3" alt="">
+        <h5>Chapati With Curry</h5>
+        <span class="fw-bold text-danger">₹150</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+     <div class="col-auto">
+      <div class="card p-3 shadow text-center">
+        <img src="https://www.shutterstock.com/image-photo/side-view-isometric-angle-crispy-600nw-2600398075.jpg" class="card-img-top mb-3" alt="">
+        <h5>Dosa</h5>
+        <span class="fw-bold text-danger">₹50</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/48/48/fd/4848fd1d55fe05283d30922cc796b3bb.jpg" class="card-img-top mb-3" alt="">
+        <h5>Puri</h5>
+        <span class="fw-bold text-danger">₹100</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://shop.sresthproducts.com/wp-content/uploads/2024/12/masala-dosa-1200x900.jpg" class="card-img-top mb-3" alt="">
+        <h5>Masala Dosa</h5>
+        <span class="fw-bold text-danger">₹80</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://paattiskitchen.com/wp-content/uploads/2023/04/kmc_20230408_211305-2.jpg" class="card-img-top mb-3" alt="">
+        <h5>Pongal</h5>
+        <span class="fw-bold text-danger">₹50</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <h2 class="text-center">Chicken Types</h2>
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.ytimg.com/vi/70-IPVKsDG8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD1REpFke1D333jbjQt5kphfDCrag" class="card-img-top mb-3" alt="">
+        <h5>Chicken Lollipop</h5>
+        <span class="fw-bold text-danger">₹50</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/b1/21/72/b12172479151a6d5bf1c8ece80342fdc.jpg" class="card-img-top mb-3" alt="">
+        <h5>Chicken 65</h5>
+        <span class="fw-bold text-danger">₹100</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/57/4e/42/574e420bc4c3e974cef42a3b891eacc0.jpg" class="card-img-top mb-3" alt="">
+        <h5>Pepper Chicken Fry</h5>
+        <span class="fw-bold text-danger">₹80</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/ae/b8/a8/aeb8a8b359c017333621eb7b15d47afe.jpg" class="card-img-top mb-3" alt="">
+        <h5>Chicken Varuval</h5>
+        <span class="fw-bold text-danger">₹80</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORtimS5lADLpfyA48Ov1ryLfIXXuwbGGIMw&s" class="card-img-top mb-3" alt="">
+        <h5>Naatu Koli Varuval</h5>
+        <span class="fw-bold text-danger">₹50</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/09/ab/6c/09ab6c721af58de7f97225db48d1e53f.jpg" class="card-img-top mb-3" alt="">
+        <h5>Chicken Pakoda</h5>
+        <span class="fw-bold text-danger">₹30</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <h2 class="text-center">Street Foods</h2>
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://cdn.pixabay.com/photo/2024/02/28/04/13/ai-generated-8601143_1280.jpg"class="card-img-top mb-3" alt="">
+        <h5>Pani Puri</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/f5/bb/a2/f5bba2b0b976e809229a2a73d0a9de62.jpg"class="card-img-top mb-3" alt="">
+        <h5>Calli Flower Fry</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/5f/49/8b/5f498bf9c9e60f1ad52cf7ec4d000199.jpg"class="card-img-top mb-3" alt="">
+        <h5>Potato Chips Fry</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/c4/10/06/c41006049b919e5dbbdbb2e972839e5f.jpg"class="card-img-top mb-3" alt="">
+        <h5>Chicken Sharwarma</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/13/ed/c7/13edc7f809464f3b422f87e571f64078.jpg"class="card-img-top mb-3" alt="">
+        <h5>Chicken Puffs</h5>
+        <span class="fw-bold text-danger">₹7</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/90/7f/d8/907fd814dca9a96bba81b71a4943843d.jpg"class="card-img-top mb-3" alt="">
+        <h5>Chicken Rolls / Kathi Rolls</h5>
+        <span class="fw-bold text-danger">₹5</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <h2 class="text-center">Ice Cream Iteams</h2>
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/69/bb/49/69bb4982beca187ed6f1c5a96039b2a7.jpg"class="card-img-top mb-3" alt="">
+        <h5>Kulfi Ice cream</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/03/db/d4/03dbd45736cb31085b29cc9803084b88.jpg"class="card-img-top mb-3" alt="">
+        <h5>Sticky Ice cream</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+     <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/e0/4c/0f/e04c0f5a88efae9c3d35b8f72f4b5000.jpg"class="card-img-top mb-3" alt="">
+        <h5>Falooda Ice cream</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+     <h2 class="text-center">Kulfi Ice Varieties</h2>
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/f9/e1/00/f9e10091a5e914a333a712da6ee706bd.jpg"class="card-img-top mb-3" alt="">
+        <h5>Malai Kulfi Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+     <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/4a/a2/c0/4aa2c0a3c3a08005607828e11f9c2f46.jpg"class="card-img-top mb-3" alt="">
+        <h5>Badam Kulfi Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/29/61/7d/29617d897ab00e030cbb47ff3706ca80.jpg"class="card-img-top mb-3" alt="">
+        <h5>Pista Kulfi Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/2f/34/65/2f3465d801c70c7fbbb3a316d956ea22.jpg"class="card-img-top mb-3" alt="">
+        <h5>Kaser Kulfi Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/05/06/06/05060607300dc91b8170eff686f589dd.jpg"class="card-img-top mb-3" alt="">
+        <h5>Strawbeery Kulfi Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/c6/f8/76/c6f8764c7d8ca8dae743e4d8031e224a.jpg"class="card-img-top mb-3" alt="">
+        <h5>Rose Kulfi Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/a6/01/ec/a601ec6d2c9abc5ef7667f0b352019c1.jpg"class="card-img-top mb-3" alt="">
+        <h5>Coconut Kulfi Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/6d/c5/a7/6dc5a7f58358dc1379b9024c8f6cee41.jpg"class="card-img-top mb-3" alt="">
+        <h5>Mixed Fruit Kulfi Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/40/15/1a/40151a4c86971d543013e8909d04b037.jpg"class="card-img-top mb-3" alt="">
+        <h5>Dry Fruit Kulfi Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+   
+    <h2 class="text-center">Stick Ice Cream Varieties</h2>
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/0c/58/45/0c58455b58cf5563ebf5764cde6bcef1.jpg"class="card-img-top mb-3" alt="">
+        <h5>Mango Ice Cream</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/3d/df/14/3ddf14550aaa338937820f00bd2f7575.jpg"class="card-img-top mb-3" alt="">
+        <h5>Orange Ice Cream</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/85/dc/a8/85dca81b14c16d71d6864721099f649a.jpg"class="card-img-top mb-3" alt="">
+        <h5>Graphes Ice Cream</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/65/64/97/656497ac537b7f83004021fbad9d978a.jpg"class="card-img-top mb-3" alt="">
+        <h5>Strawbeery Ice Cream</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/8e/93/4b/8e934bb18927efcea2aea45d9fb5f83c.jpg"class="card-img-top mb-3" alt="">
+        <h5>Watermelon Ice Cream</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+     <div class="col-auto">
+    <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/36/36/00/363600841901c896e14ecf161a3ba53a.jpg"class="card-img-top mb-3" alt="">
+        <h5>Lemon Ice Cream</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <h2 class="text-center">Falooda Ice Cream Varieties</h2>
+     <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/f4/4b/7f/f44b7f5e74f7ee94b3ced4bb04a4f708.jpg"class="card-img-top mb-3" alt="">
+        <h5>Rose Falooda Ice Cream</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/1200x/ee/82/f3/ee82f3c7aeaee15c5d25a5b7e8a61f59.jpg"class="card-img-top mb-3" alt="">
+        <h5>Royal Falooda Ice Cream</h5>
+        <span class="fw-bold text-danger">₹25</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+     <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://sreerajlassibar.com/wp-content/uploads/2024/09/Dry-Fruit-Falooda.png"class="card-img-top mb-3" alt="">
+        <h5>Dry Fruit Falooda Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+     <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/cb/f7/99/cbf7994a055a446cc5e80059eed53c2f.jpg"class="card-img-top mb-3" alt="">
+        <h5>Vanilla Falooda Ice Cream</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/3f/e7/7f/3fe77ff941a217b854c9a7ae11041a32.jpg"class="card-img-top mb-3" alt="">
+        <h5>Chocolate Falooda Ice Cream</h5>
+        <span class="fw-bold text-danger">₹30</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/f9/39/94/f9399404fa7f5c80b6c14189e7a63519.jpg"class="card-img-top mb-3" alt="">
+        <h5>Mango Falooda Ice Cream</h5>
+        <span class="fw-bold text-danger">₹35</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+     <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://img-global.cpcdn.com/recipes/e86df1daaff64b96/680x781cq80/strawberry-faluda-recipe-main-photo.jpg"class="card-img-top mb-3" alt="">
+        <h5>Strawbeery Falooda Ice Cream</h5>
+        <span class="fw-bold text-danger">₹15</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/4c/d4/22/4cd4229afeb5a50504f3edf9096b6a7b.jpg"class="card-img-top mb-3" alt="">
+        <h5>Pineapple Falooda Ice Cream</h5>
+        <span class="fw-bold text-danger">₹10</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+     <div class="card p-3 shadow text-center">
+        <img src="https://i.pinimg.com/736x/62/e3/4f/62e34f55b02a4237e21cf48b7519b313.jpg"class="card-img-top mb-3" alt="">
+        <h5>Mixed Fruit Falooda Ice Cream</h5>
+        <span class="fw-bold text-danger">₹20</span><br>
+        <button class="btn btn-success mt-3 w-100 order-btn">Order</button>
+      </div>
+    </div>
+
+
+     
+
+    
+
+
+  </div>
+
+  <script>
+  const buttons = document.querySelectorAll('.order-btn');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const itemName = btn.parentElement.querySelector('h5').textContent;
+      localStorage.setItem('foodItem', itemName);
+      window.location.href = "checkout.html";
+    });
+  });
+</script>
+
+
+</body>
+</html>

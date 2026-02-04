@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Sharmi's Food World</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body {
+      background-color: #000; /* full black background */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .contact-card {
+      background-color: #1a1a1a; /* dark gray card */
+      border-radius: 15px;
+      padding: 35px 25px; /* smaller padding */
+      max-width: 400px; /* smaller width */
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(255,255,255,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(255,255,255,0.2);
+    }
+
+    .contact-card h2 {
+      color: #ffcc00; /* golden heading */
+      margin-bottom: 25px;
+      font-weight: 700;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+    }
+
+    .contact-info p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+      color: #f0f0f0; /* light text */
+    }
+
+    .contact-info i {
+      color: #ffcc00; /* icon accent color */
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 576px) {
+      .contact-card {
+        padding: 25px 15px;
+      }
+      .contact-card h2 {
+        font-size: 1.5rem;
+      }
+      .contact-info p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-card">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><i class="bi bi-geo-alt-fill"></i> Almighty Tower, Vadasery, Nagercoil</p>
+      <p><i class="bi bi-telephone-fill"></i> +91 9876543210</p>
+      <p><i class="bi bi-envelope-fill"></i> info@sharmisfoodworld.com</p>
+      <p><i class="bi bi-globe"></i> www.sharmisfoodworld.com</p>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
